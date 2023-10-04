@@ -1,6 +1,5 @@
 import random
 
-
 class WordChainGame:
     def __init__(self, filename):
         self.words = self.load_words(filename)
